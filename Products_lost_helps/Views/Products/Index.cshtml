@@ -1,0 +1,35 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CrearProduct</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Products_lost_helps.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <form action="@Url.Action("CrearProduct","Products")" method="post" enctype="multipart/form-data">
+            <div class="pro">
+                <div class="mb-3">
+                    <label for="Nombre" class="form-label">Nombres Producto o Servicio</label>
+                    <input type="text" class="form-control" placeholder="Nombres Producto o Servicio" name="Nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="Descripcion" class="form-label">Descripcion</label>
+                    <input type="text" class="form-control" placeholder="Descripcion" name="Descripcion">
+                </div>
+                <div class="mb-3">
+                    <label for="Archivos" class="form-label">Fotos o Imagenes</label>
+                    <input class="form-control" type="file" name="Archivos" accept="image/*" multiple max="4">
+                </div>
+                <button type="submit" class="btn btn-primary">Crear Producto</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.navbar-brand {
+    color: white; /* Cambiar el color del texto */
+}
+
+.navbar-nav .nav-link {
+    color: white !important; /* Cambiar el color del texto a blanco */
+}
+
+
+.card {
+    margin: 10px
+}
+
+.navbar {
+    background-color: #000; /* Cambiar el color de fondo */
+}
+
+.navbar-brand {
+    color: white; /* Cambiar el color del texto */
+}
+
+.navbar-toggler-icon {
+    color: white; /* Cambiar el color del ícono del botón de navegación */
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Cambiar el color de los enlaces de navegación */
+}
+
+/* Ajustar la alineación en dispositivos móviles */
+@media (max-width: 767px) {
+    .navbar-nav {
+        flex-direction: column; /* Mostrar enlaces en una columna en dispositivos móviles */
+    }
+
+    .navbar-collapse {
+        background-color: #000; /* Cambiar el color de fondo del menú desplegable */
+    }
+
+    .navbar-toggler {
+        margin-top: 10px; /* Agregar espaciado al botón de navegación en dispositivos móviles */
+    }
+}
+
+.pro {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Esto centra verticalmente el contenido */
+}
+
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
