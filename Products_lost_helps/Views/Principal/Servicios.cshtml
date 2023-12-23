@@ -1,0 +1,34 @@
+﻿@model List<Products_lost_helps.Models.Products>
+
+@{
+    ViewBag.Title = "Servicios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<h1>@Session["UsuarioNombre"]</h1>*@
+@*@if (Context.User.Identity.IsAuthenticated == true)
+{
+    @if (Context.User.Identity.Name != null)   esto es para ver el nombre del que se loguea
+    {
+        <h2>Hola @Context.User.Identity.Name</h2>
+    }
+}*@
+
+
+<div class="container">
+
+    <div class="row" style="padding: 100px;">
+        @foreach (var item in Model)
+        {
+            <div class="card" style="width: 16rem; padding: 5px">
+                <img src="@Url.Action("ver", "Principal", new { IdProducts = item.IdProducto })" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5> @item.Nombre</h5>
+                    <p> @item.Descripcion</p>
+                    <a href="#" class="btn btn-primary">Ver Detalles</a>
+                    <a href="#" class="btn btn-primary">Agregar</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>

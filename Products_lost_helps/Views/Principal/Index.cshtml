@@ -1,29 +1,53 @@
 ﻿@model List<Products_lost_helps.Models.Products>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Appu";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 @*<h1>@Session["UsuarioNombre"]</h1>*@
-@if (Context.User.Identity.IsAuthenticated == true)
+@*@if (Context.User.Identity.IsAuthenticated == true)
 {
-    @if (Context.User.Identity.Name != null)
+    @if (Context.User.Identity.Name != null)   esto es para ver el nombre del que se loguea
     {
         <h2>Hola @Context.User.Identity.Name</h2>
     }
-}
-<div class="row">
+}*@
+
+
+<div class="container" style="padding: 100px">
+        <img src="@Url.Action("ver", "Principal", new { IdProducts = Model.FirstOrDefault().IdProducto  })" style="height: 300px; width: 900px">
+            <p class="intro">
+                ¡Bienvenido al Santuario de la Mirada!
+
+                En nuestro rincón dedicado a la belleza, transformamos pestañas y cejas en obras maestras que cuentan historias de elegancia y encanto. En cada pincelada, encontramos la expresión única que define tu estilo y resalta tu auténtica belleza.
+            </p>
+
     @foreach (var item in Model)
     {
-        <div class="card" style="width: 16rem;">
-            <img src="@Url.Action("ver", "Principal", new { IdProducts = item.IdProducto })" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5> @item.Nombre</h5>
-                <p> @item.Descripcion</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+        <div class="card">
+            <img src="@Url.Action("ver", "Principal", new { IdProducts = item.IdProducto })" style="height: 300px; width: 900px">
         </div>
     }
+
+
 </div>
 
+
+
+@*<div class="container">
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="card" style="width: 16rem;">
+                <img src="@Url.Action("ver", "Principal", new { IdProducts = item.IdProducto })" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5> @item.Nombre</h5>
+                    <p> @item.Descripcion</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>*@

@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\WilsonJavierEstradaZ\Documents\cw\Products_lost_helps\Products_lost_helps
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/WilsonJavierEstradaZ/Documents/cw/Products_lost_helps/Products_lost_helps/Views/Citas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/WilsonJavierEstradaZ/Documents/cw/Products_lost_helps/Products_lost_helps/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -29,6 +33,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/WilsonJavierEstradaZ/Documents/cw/Products_lost_helps/Products_lost_helps/Views/Principal/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbmNpcGFsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WilsonJavierEstradaZ/Documents/cw/Products_lost_helps/Products_lost_helps/Views/Principal/Servicios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbmNpcGFsXFNlcnZpY2lvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/WilsonJavierEstradaZ/Documents/cw/Products_lost_helps/Products_lost_helps/Views/Products/Index.cshtml]
