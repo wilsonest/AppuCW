@@ -21,27 +21,44 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Principal" asp-action="Index">Incio</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Principal" asp-action="Servicios">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Principal" asp-action="Servicios">Servicios</a>
+                            @* <a class="nav-link text-dark" asp-area="" asp-controller="Principal" asp-action="Servicios">Productos</a> *@
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Citas" asp-action="Index">Citas</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Clients" asp-action="Clients">Clientes</a>
                         </li>
-@*                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">Crear Producto</a>
-                        </li>*@
+                       
+
+                        @if (Convert.ToBoolean(Context.User.Identity.IsAuthenticated) == false)
+                            {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">Ingresar</a>
+                            </li>
+                              
+                            }else
+                            {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">Crear Producto</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">Salir</a>
+                            </li>
+                            }
+                        
+                        
                     </ul>
 
-                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                    @*<form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
                         <input type="search" class="form-control form-control-dark" placeholder="Buscar..." aria-label="Search">
                     </form>
 
-                    <div class="text-end">
+                   @* <div class="text-end">
                         <a class="btn btn-outline-light me-2" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
                         <a href="@Url.Action("Index", "Login")" class="btn btn-outline-light me-2">Sign-up</a>
-                    </div>
+                    </div>*@
                 </div>
             </div>
         </nav>

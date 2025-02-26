@@ -1,0 +1,161 @@
+USE [DBARCHIVOS]
+GO
+
+/****** Object:  Table [dbo].[Productos]    Script Date: 26/02/2025 3:48:15 p. m. ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Productos](
+	[IdProducto] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [varchar](100) NULL,
+	[Descripcion] [varchar](200) NULL,
+	[Id] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[IdProducto] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Productos]  WITH CHECK ADD FOREIGN KEY([Id])
+REFERENCES [dbo].[Usuarios] ([Id])
+GO
+
+
+--------------------------------------------------------
+
+
+USE [DBARCHIVOS]
+GO
+
+/****** Object:  Table [dbo].[archivos]    Script Date: 26/02/2025 3:49:15 p. m. ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[archivos](
+	[IdArchivo] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [varchar](100) NULL,
+	[Archivo] [varbinary](max) NULL,
+	[Extension] [varchar](50) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[IdArchivo] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+
+
+-----------------------------------------------------------------
+
+USE [DBARCHIVOS]
+GO
+
+/****** Object:  Table [dbo].[Clients]    Script Date: 26/02/2025 3:49:43 p. m. ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Clients](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [varchar](max) NOT NULL,
+	[Mesa] [int] NULL,
+	[Cuenta] [decimal](18, 0) NULL,
+	[Fecha] [datetime] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+
+
+----------------------------------------------------------------------
+
+USE [DBARCHIVOS]
+GO
+
+/****** Object:  Table [dbo].[Fotos]    Script Date: 26/02/2025 3:50:16 p. m. ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Fotos](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[NombreImg] [varchar](50) NULL,
+	[Imagen] [varbinary](max) NULL,
+	[IdProducto] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Fotos]  WITH CHECK ADD FOREIGN KEY([IdProducto])
+REFERENCES [dbo].[Productos] ([IdProducto])
+GO
+
+--------------------------------------------------------
+
+
+USE [DBARCHIVOS]
+GO
+
+/****** Object:  Table [dbo].[ROL]    Script Date: 26/02/2025 3:51:14 p. m. ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[ROL](
+	[IdRol] [int] NOT NULL,
+	[Descripcion] [varchar](50) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[IdRol] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+--------------------------------------------------------------------
+
+USE [DBARCHIVOS]
+GO
+
+/****** Object:  Table [dbo].[Usuarios]    Script Date: 26/02/2025 3:51:41 p. m. ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Usuarios](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [varchar](50) NULL,
+	[Apellido] [varchar](50) NULL,
+	[Correo] [varchar](50) NULL,
+	[Clave] [varchar](500) NULL,
+	[IdRol] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Usuarios]  WITH CHECK ADD FOREIGN KEY([IdRol])
+REFERENCES [dbo].[ROL] ([IdRol])
+GO

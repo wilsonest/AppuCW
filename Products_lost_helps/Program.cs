@@ -12,6 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Configuración de servicios
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<Lo_Usuario>();
+builder.Services.AddScoped<Lo_Clients>();
 
 builder.Services.AddAuthentication(options =>
 {
@@ -55,6 +56,6 @@ app.UseSession();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Principal}/{action=Index}/{id?}");
+    pattern: "{controller=Principal}/{action=Servicios}/{id?}");
 
 app.Run();

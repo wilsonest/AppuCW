@@ -10,3 +10,4 @@
         public Rol IdRol { get; set; }
     }
 }
+

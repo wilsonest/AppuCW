@@ -17,15 +17,15 @@
 
 <div class="container">
 
-    <div class="row" style="padding: 100px;">
+    <div class="row">
         @foreach (var item in Model)
         {
             <div class="card" style="width: 16rem; padding: 5px">
-                <img src="@Url.Action("ver", "Principal", new { IdProducts = item.IdProducto })" class="card-img-top" alt="...">
+                <img src="@Url.Action("ver", "Principal", new { IdProducts = item.IdProducto })" class="card-img-top" alt="..." style="height: 60%">
                 <div class="card-body">
                     <h5> @item.Nombre</h5>
                     <p> @item.Descripcion</p>
-                    <a href="#" class="btn btn-primary">Ver Detalles</a>
+                    <a href="@Url.Action("InfoProdutcs","Products",new { idProducto = item.IdProducto, descripcion = item.Descripcion })" class="btn btn-primary">Ver Detalles</a>
                     <a href="#" class="btn btn-primary">Agregar</a>
                 </div>
             </div>

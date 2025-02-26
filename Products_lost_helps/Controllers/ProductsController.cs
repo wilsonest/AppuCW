@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Products_lost_helps.Logica;
 using Products_lost_helps.Models;
+using System.Data;
 
 namespace Products_lost_helps.Controllers
 {
@@ -39,9 +40,34 @@ namespace Products_lost_helps.Controllers
                     await _loUsuario.SubirImagen(b, Archivos);
                 }
                 ViewBag.Message = "Producto Creado";
-                return RedirectToAction("Index", "Principal");
+                return RedirectToAction("Servicios", "Principal");
             }
-            return RedirectToAction("Index", "Principal");
+            return RedirectToAction("Servicios", "Principal");
+        }
+
+
+        public ActionResult InfoProdutcs(int idProducto, string descripcion)
+        {
+
+            DataTable dt = _loUsuario.GetImagenes();
+            List<string> imagenes = new List<string>();
+
+            foreach (DataRow row in dt.Rows)
+            {
+                if ((int)row["IdProducto"] == idProducto)
+                {
+                    byte[] imagen = (byte[])row["Imagen"];
+                    string base64String = Convert.ToBase64String(imagen);
+                    string imgSrc = string.Format("data:image/jpeg;base64,{0}", base64String);
+                    imagenes.Add(imgSrc);
+                }
+            }
+
+            ViewBag.Descripcion = descripcion;
+            ViewBag.IdProducto = idProducto;
+            ViewBag.Imagenes = imagenes;
+
+            return View();
         }
     }
 }

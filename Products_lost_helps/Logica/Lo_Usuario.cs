@@ -112,7 +112,8 @@ namespace Products_lost_helps.Logica
             {
                 //string query = "SELECT TOP 1 * FROM Productos INNER JOIN Usuarios ON Productos.Id = Usuarios.Id WHERE Usuarios.Id = @id ORDER BY Productos.IdProducto DESC";
                 //string query = "SELECT TOP 1 p.IdProducto, p.Nombre, p.Descripcion, s.Nombre, s.Apellido, s.Correo FROM Productos as p INNER JOIN Usuarios as s ON p.Id = s.Id WHERE s.Id = 1 ORDER BY p.IdProducto DESC";
-                string query = "SELECT TOP 1 p.IdProducto, p.Nombre, p.Descripcion FROM Productos as p INNER JOIN Usuarios as s ON p.Id = s.Id WHERE s.Id = 1 ORDER BY p.IdProducto DESC";
+                //string query = "SELECT TOP 1 p.IdProducto, p.Nombre, p.Descripcion, p.Id FROM Productos as p INNER JOIN Usuarios as s ON p.Id = s.Id WHERE s.Id = 1 ORDER BY p.IdProducto DESC";
+                string query = "SELECT TOP 1 * FROM Productos INNER JOIN Usuarios ON Productos.Id = Usuarios.Id WHERE Usuarios.Id = @id ORDER BY Productos.IdProducto DESC";
                 SqlCommand cmd = new SqlCommand(query, conexion);
                 cmd.Parameters.AddWithValue("@id", a);
                 cmd.CommandType = CommandType.Text;

@@ -17,11 +17,11 @@ html {
 
 body {
     margin-bottom: 60px;
-    background: #fce0dc;
+    background: black;
 }
 
 .navbar-brand {
-    color: white; /* Cambiar el color del texto */
+    color: black; /* Cambiar el color del texto */
 }
 
 .navbar-nav .nav-link {
@@ -34,7 +34,7 @@ body {
 }
 
 .navbar {
-    background-color: #c99b8a; /* Cambiar el color de fondo */
+    background-color: black; /* Cambiar el color de fondo */
 }
 
 .navbar-brand {
@@ -98,8 +98,9 @@ body {
     }
 }
 .row{
+    top:60px;
     /*padding: 100px;*/
-    /*position:absolute;*/
+    position:absolute;
     /*style="width: 16rem;"*/
 }
 
@@ -283,7 +284,7 @@ thead tr:nth-child(3) th {
     }
 
 body {
-    background: #e0e0e0;
+    background: white;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 21px;
@@ -306,7 +307,7 @@ h1 {
     padding: 30px 30px 20px;
 }
 
-.bootstrap-datetimepicker-widget.dropdown-menu {
+/*.bootstrap-datetimepicker-widget.dropdown-menu {
     border: 1px solid #34495e;
     border-radius: 0;
     box-shadow: none;
@@ -452,4 +453,4 @@ h1 {
 
 .todayText:before {
     content: "Today's Date";
-}
+}*/

@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|c:\\users\\wilsonjavierestradaz\\documents\\cw\\products_lost_helps\\products_lost_helps\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|solutionrelative:products_lost_helps\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|c:\\users\\wilsonjavierestradaz\\documents\\cw\\products_lost_helps\\products_lost_helps\\logica\\lo_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|solutionrelative:products_lost_helps\\logica\\lo_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|c:\\users\\wilsonjavierestradaz\\documents\\cw\\products_lost_helps\\products_lost_helps\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|solutionrelative:products_lost_helps\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|c:\\users\\wilsonjavierestradaz\\documents\\cw\\products_lost_helps\\products_lost_helps\\controllers\\principalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|solutionrelative:products_lost_helps\\controllers\\principalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|c:\\users\\wilsonjavierestradaz\\documents\\cw\\products_lost_helps\\products_lost_helps\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|solutionrelative:products_lost_helps\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|c:\\users\\wilsonjavierestradaz\\documents\\cw\\products_lost_helps\\products_lost_helps\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|solutionrelative:products_lost_helps\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|c:\\users\\wilsonjavierestradaz\\documents\\cw\\products_lost_helps\\products_lost_helps\\logica\\lo_clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|solutionrelative:products_lost_helps\\logica\\lo_clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|c:\\users\\wilsonjavierestradaz\\documents\\cw\\products_lost_helps\\products_lost_helps\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|solutionrelative:products_lost_helps\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|c:\\users\\wilsonjavierestradaz\\documents\\cw\\products_lost_helps\\products_lost_helps\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|solutionrelative:products_lost_helps\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|c:\\users\\wilsonjavierestradaz\\documents\\cw\\products_lost_helps\\products_lost_helps\\views\\principal\\servicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|solutionrelative:products_lost_helps\\views\\principal\\servicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|c:\\users\\wilsonjavierestradaz\\documents\\cw\\products_lost_helps\\products_lost_helps\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|solutionrelative:products_lost_helps\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|c:\\users\\wilsonjavierestradaz\\documents\\cw\\products_lost_helps\\products_lost_helps\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|solutionrelative:products_lost_helps\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|c:\\users\\wilsonjavierestradaz\\documents\\cw\\products_lost_helps\\products_lost_helps\\views\\principal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|solutionrelative:products_lost_helps\\views\\principal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|c:\\users\\wilsonjavierestradaz\\documents\\cw\\products_lost_helps\\products_lost_helps\\views\\products\\infoprodutcs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4F737DD-A00E-4B47-A163-297A156FDDBD}|Products_lost_helps\\Products_lost_helps.csproj|solutionrelative:products_lost_helps\\views\\products\\infoprodutcs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Products_lost_helps\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Products_lost_helps\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAFYAAAAAAAAAAIAwwGQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-20T21:23:45.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Views\\Principal\\Index.cshtml",
+              "RelativeDocumentMoniker": "Products_lost_helps\\Views\\Principal\\Index.cshtml",
+              "ToolTip": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Views\\Principal\\Index.cshtml",
+              "RelativeToolTip": "Products_lost_helps\\Views\\Principal\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T21:43:16.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Products_lost_helps\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Products_lost_helps\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAASwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:46:40.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Lo_Clients.cs",
+              "DocumentMoniker": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Logica\\Lo_Clients.cs",
+              "RelativeDocumentMoniker": "Products_lost_helps\\Logica\\Lo_Clients.cs",
+              "ToolTip": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Logica\\Lo_Clients.cs",
+              "RelativeToolTip": "Products_lost_helps\\Logica\\Lo_Clients.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:12:22.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "Products_lost_helps\\Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "Products_lost_helps\\Controllers\\ClientsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:09:25.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Products_lost_helps\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Products_lost_helps\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwE4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T16:49:27.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Products_lost_helps\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Products_lost_helps\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvyEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T15:01:08.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lo_Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Logica\\Lo_Usuario.cs",
+              "RelativeDocumentMoniker": "Products_lost_helps\\Logica\\Lo_Usuario.cs",
+              "ToolTip": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Logica\\Lo_Usuario.cs",
+              "RelativeToolTip": "Products_lost_helps\\Logica\\Lo_Usuario.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAWwKsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:10:12.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PrincipalController.cs",
+              "DocumentMoniker": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Controllers\\PrincipalController.cs",
+              "RelativeDocumentMoniker": "Products_lost_helps\\Controllers\\PrincipalController.cs",
+              "ToolTip": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Controllers\\PrincipalController.cs",
+              "RelativeToolTip": "Products_lost_helps\\Controllers\\PrincipalController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T15:46:19.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Products_lost_helps\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Products_lost_helps\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T22:12:42.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Products_lost_helps\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Products_lost_helps\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T23:49:41.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Program.cs",
+              "RelativeDocumentMoniker": "Products_lost_helps\\Program.cs",
+              "ToolTip": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Program.cs",
+              "RelativeToolTip": "Products_lost_helps\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T23:51:08.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Servicios.cshtml",
+              "DocumentMoniker": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Views\\Principal\\Servicios.cshtml",
+              "RelativeDocumentMoniker": "Products_lost_helps\\Views\\Principal\\Servicios.cshtml",
+              "ToolTip": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Views\\Principal\\Servicios.cshtml",
+              "RelativeToolTip": "Products_lost_helps\\Views\\Principal\\Servicios.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T16:15:44.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InfoProdutcs.cshtml",
+              "DocumentMoniker": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Views\\Products\\InfoProdutcs.cshtml",
+              "RelativeDocumentMoniker": "Products_lost_helps\\Views\\Products\\InfoProdutcs.cshtml",
+              "ToolTip": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\Views\\Products\\InfoProdutcs.cshtml",
+              "RelativeToolTip": "Products_lost_helps\\Views\\Products\\InfoProdutcs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T17:03:30.314Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

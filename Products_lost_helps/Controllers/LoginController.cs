@@ -82,7 +82,7 @@ namespace Products_lost_helps.Controllers
                 });
 
                 var aut = identity.IsAuthenticated;
-                return RedirectToAction("Index", "Principal");
+                return RedirectToAction("Servicios", "Principal");
             }
 
         }
