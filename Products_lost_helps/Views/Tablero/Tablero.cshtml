@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Tablero de Superposición";
+}
+
+<h3>@ViewData["Title"]</h3>
+
+<canvas id="imageCanvas" width="800" height="600" style="border:1px solid black;"></canvas>
+
+<div>
+    <label for="backgroundInput">Seleccionar Fondo:</label>
+    <input type="file" id="backgroundInput" />
+
+    <label for="overlayInput">Seleccionar Superposición:</label>
+    <input type="file" id="overlayInput" />
+</div>
+
+<button id="saveButton">Guardar Imagen</button>
+
+<script src="scripts/site.js"></script>

@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xDbGllbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/WilsonJavierEstradaZ/Documents/cw/Products_lost_helps/Products_lost_helps/Views/Footer/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGVyXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/WilsonJavierEstradaZ/Documents/cw/Products_lost_helps/Products_lost_helps/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/WilsonJavierEstradaZ/Documents/cw/Products_lost_helps/Products_lost_helps/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WilsonJavierEstradaZ/Documents/cw/Products_lost_helps/Products_lost_helps/Views/Principal/Banner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbmNpcGFsXEJhbm5lci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/WilsonJavierEstradaZ/Documents/cw/Products_lost_helps/Products_lost_helps/Views/Principal/Index.cshtml]
@@ -60,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/WilsonJavierEstradaZ/Documents/cw/Products_lost_helps/Products_lost_helps/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WilsonJavierEstradaZ/Documents/cw/Products_lost_helps/Products_lost_helps/Views/Tablero/Tablero.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGVyb1xUYWJsZXJvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/WilsonJavierEstradaZ/Documents/cw/Products_lost_helps/Products_lost_helps/Views/_ViewImports.cshtml]

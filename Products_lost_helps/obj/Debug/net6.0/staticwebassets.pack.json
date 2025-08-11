@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Products_lost_helps.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\wwwroot\\Images\\banner.png",
+      "PackagePath": "staticwebassets\\Images\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\wwwroot\\Images\\banner_resized.png",
+      "PackagePath": "staticwebassets\\Images\\banner_resized.png"
+    },
+    {
       "Id": "C:\\Users\\WilsonJavierEstradaZ\\Documents\\cw\\Products_lost_helps\\Products_lost_helps\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

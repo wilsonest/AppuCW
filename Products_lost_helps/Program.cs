@@ -13,6 +13,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<Lo_Usuario>();
 builder.Services.AddScoped<Lo_Clients>();
+builder.Services.AddScoped<Lo_Products>();
+builder.Services.AddScoped<Lo_Images>();
 
 builder.Services.AddAuthentication(options =>
 {

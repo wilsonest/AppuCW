@@ -10,10 +10,9 @@
 </head>
 <body>
     <header>
-        @*<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-black border-bottom box-shadow mb-3 fixed-top">*@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3 fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" style="color:white" asp-controller="Home" asp-action="Index">App-U</a>
+                <a class="navbar-brand" asp-area="" style="color:white" asp-controller="Principal" asp-action="Servicios">App-U</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -23,18 +22,12 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Principal" asp-action="Servicios">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            @* <a class="nav-link text-dark" asp-area="" asp-controller="Principal" asp-action="Servicios">Productos</a> *@
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Clients" asp-action="Clients">Clientes</a>
-                        </li>
                        
 
                         @if (Convert.ToBoolean(Context.User.Identity.IsAuthenticated) == false)
                             {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">Ingresar</a>
+                            <li class="nav-item ms-auto" id="Login">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
                             </li>
                               
                             }else
@@ -44,21 +37,16 @@
                             </li>
 
                             <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Tablero" asp-action="Tablero">Crear Imagen</a>
+                            </li>
+
+                            <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">Salir</a>
                             </li>
                             }
                         
                         
                     </ul>
-
-                    @*<form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                        <input type="search" class="form-control form-control-dark" placeholder="Buscar..." aria-label="Search">
-                    </form>
-
-                   @* <div class="text-end">
-                        <a class="btn btn-outline-light me-2" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
-                        <a href="@Url.Action("Index", "Login")" class="btn btn-outline-light me-2">Sign-up</a>
-                    </div>*@
                 </div>
             </div>
         </nav>
@@ -68,12 +56,7 @@
             @RenderBody()
         </main>
     </div>
-@*
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - Products_lost_helps - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>*@
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

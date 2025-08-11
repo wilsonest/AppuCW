@@ -1,10 +1,11 @@
-﻿using Products_lost_helps.Models;
+﻿using Products_lost_helps.Interfaces;
+using Products_lost_helps.Models;
 using System.Data;
 using System.Data.SqlClient;
 
 namespace Products_lost_helps.Logica
 {
-    public class Lo_Clients
+    public class Lo_Clients: IClientsLogic
     {
         private readonly IConfiguration _configuration;
 

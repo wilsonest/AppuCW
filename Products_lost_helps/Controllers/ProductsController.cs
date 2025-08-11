@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Products_lost_helps.Interfaces;
 using Products_lost_helps.Logica;
 using Products_lost_helps.Models;
 using System.Data;
@@ -9,11 +10,13 @@ namespace Products_lost_helps.Controllers
 {
     public class ProductsController : Controller
     {
-        private readonly Lo_Usuario _loUsuario;
+        private readonly Lo_Products _loProducts;
+        private readonly Lo_Images _loImages;
 
-        public ProductsController(Lo_Usuario loUsuario)
+        public ProductsController(Lo_Products loProducts, Lo_Images loImages)
         {
-            _loUsuario = loUsuario;
+            _loProducts = loProducts;
+            _loImages = loImages;
         }
         public IActionResult Index()
         {
@@ -31,13 +34,13 @@ namespace Products_lost_helps.Controllers
             {
 
                 int a = 1;
-                Products objeto = _loUsuario.CrearProducto(prod, a);
-                Products producto = _loUsuario.GetProductos(a);
+                Products objeto = _loProducts.CrearProducto(prod, a);
+                Products producto = _loProducts.GetProductos(a);
                 int b = producto.IdProducto;
 
                 if (Archivos != null && Archivos.Count > 0)
                 {
-                    await _loUsuario.SubirImagen(b, Archivos);
+                    await _loImages.SubirImagen(b, Archivos);
                 }
                 ViewBag.Message = "Producto Creado";
                 return RedirectToAction("Servicios", "Principal");
@@ -49,7 +52,7 @@ namespace Products_lost_helps.Controllers
         public ActionResult InfoProdutcs(int idProducto, string descripcion)
         {
 
-            DataTable dt = _loUsuario.GetImagenes();
+            DataTable dt = _loImages.GetImagenes();
             List<string> imagenes = new List<string>();
 
             foreach (DataRow row in dt.Rows)

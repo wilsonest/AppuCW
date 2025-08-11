@@ -14,13 +14,23 @@
     }
 }*@
 
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+
+@* <div class="banner-container"> *@
+    <partial name="Banner" />
+@* </div> *@
+
+
 
 <div class="container">
+    
 
     <div class="row">
         @foreach (var item in Model)
         {
-            <div class="card" style="width: 16rem; padding: 5px">
+            <div class="card" style="width: 16rem; padding: 5px; border: none">
                 <img src="@Url.Action("ver", "Principal", new { IdProducts = item.IdProducto })" class="card-img-top" alt="..." style="height: 60%">
                 <div class="card-body">
                     <h5> @item.Nombre</h5>
@@ -32,3 +42,7 @@
         }
     </div>
 </div>
+
+
+<partial name="~/Views/Footer/_Footer.cshtml" />
+
